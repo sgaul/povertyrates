@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Poverty rates</title>
+    <link rel="stylesheet" href="libraries/frameworks/minimal/stylesheets/styles.css">
+    <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+        <link rel=stylesheet href="libraries/widgets/nvd3/css/nv.d3.css"></link>
+<link rel=stylesheet href="libraries/widgets/nvd3/css/rNVD3.css"></link>
+
+    <script src="libraries/widgets/nvd3/js/jquery-1.8.2.min.js"></script>
+<script src="libraries/widgets/nvd3/js/d3.v3.min.js"></script>
+<script src="libraries/widgets/nvd3/js/nv.d3.min-new.js"></script>
+<script src="libraries/widgets/nvd3/js/fisheye.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+<header>
+  <h1>Poverty rates</h1>
+  <p>Hartford regional data and indicators</p>
+    <ol>
+    </ol>
+</header>
+
+      <section>
+        <h2>Poverty indicators</h2>
+<p>Three related poverty indicators will be covered here:</p>
+
+<ul>
+<li>% of persons below poverty line</li>
+<li>% of persons below 200% of poverty line</li>
+<li>% of children below poverty line
+All three were among the most highly-ranked indicators in the survey. </li>
+</ul>
+
+<h2>Data and limitations</h2>
+
+<p>The measurement of poverty is complex and there are several approaches and much research <a href="http://www.census.gov/hhes/www/poverty/about/overview/measure.html">on this subject</a>. (For a user-friendly introduction, NPR&#39;s Planet Money had <a href="http://www.npr.org/blogs/money/2013/08/27/214822459/a-college-kid-a-single-mom-and-the-problem-with-the-poverty-line">some recent</a> <a href="http://www.npr.org/blogs/money/2013/09/16/223086399/the-poverty-rate-ignores-programs-that-fight-poverty">programs</a> on this.) </p>
+
+<p>In most cases, indicator systems rely on data from the U.S. Census Bureau, generally from either the decennial census, the annual American Community Survey updates or the Current Population Survey. </p>
+
+<p>Use of census data creates some difficulties. Reliance on the decennial census means using poverty data that is produced only once each decade. More frequent updates rely on sample surveys though, which means there can be large margins of error for small geographies. In practice, for the Hartford region this generally means towns in the region need <a href="http://www.census.gov/acs/www/methodology/sample_size_and_data_quality/Community%20Survey">at least three and often five-years of data to create reliable estimates</a>. In other words, <a href="http://ctdata.org/communityprofile-Vernon">2011 poverty data for (say) Vernon</a> reflects five-years of rolling surveys (2006 - 2010 or 2007 - 2011) of individuals in that town. </p>
+
+<p>Other demographic issues, like a <a href="http://blogs.census.gov/2013/07/29/when-off-campus-college-students-are-excluded-poverty-rates-fall-in-many-college-towns/">large off-campus student population</a>, can effect the results for some towns. Data on Mansfield is particularly affected by this in Connecticut, although the impact is not large for other towns. </p>
+
+<p>Serveral alternative measures of poverty are available - the <a href="http://www.census.gov/hhes/povmeas/methodology/supplemental/research.html">supplemental poverty measure</a>, <a href="http://www.ophi.org.uk/policy/multidimensional-poverty-index/">multi-dimensional poverty index</a> - but generally not with the level of detail or frequency typically used in indicators projects. New York City&#39;s Center for Economic Opportunity creates <a href="http://www.nyc.gov/html/ceo/downloads/pdf/ceo_poverty_measure_2005_2011.pdf">their own poverty measure</a> for the city to reflect cost of living and benefits payments. The inclusion of these factors starts to move the poverty rate closer to self-sufficiency calculations, such as in the <a href="http://ctpcsw.com/basic-economic-security-tables/">Connecticut BEST tables</a> or in the <a href="http://www.unitedwaynnj.org/documents/UWNNJ_ALICE%20Report_FINAL2012.pdf">ALICE report</a> from the United Way of Northern New Jersey. </p>
+
+<h2>What do we already know?</h2>
+
+<p>Below are references for some local, regional and national reports that use poverty rate indicators above, with some details on how the data is used. Poverty is referenced in many indicators reports and systems and the list below is far from comprehensive.</p>
+
+<h3>Local</h3>
+
+<ul>
+<li><a href="http://www.ctdol.state.ct.us/OWC/CETC/2013ReportCard.pdf">CETC Report Card</a> includes the population living under 200% of poverty level as an indicator for the state. </li>
+<li><a href="http://www.ctfairhousing.org/people-place-and-opportunity-report/">CT Fair Housing Center Opportunity Mapping</a> (developed with the Kirwan Institute at Ohio State) includes the neighborhood poverty rate as one factor. </li>
+<li><a href="http://www.cga.ct.gov/kid/rba/results.asp">CT Kids Report Card</a> has &#39;children living in poverty&#39; as an indicator of &#39;Future Success.&#39;</li>
+<li><a href="http://www.capitalworkforce.org/ctworks/documents/Community_Workforce_Development_Report_Card_2011ff.pdf">CWP Community Workforce Development Report Card</a> includes the percent living under 200% of the poverty line as an indicator of self-sufficiency for adults. </li>
+<li><a href="http://courantblogs.com/cityline/wp-content/uploads/2013/04/Hartford-Neighborhood-Assessment.pdf">Hartford Neighborhood Assessments</a> report published by Hartford Public Schools uses the child poverty rate (by neighborhood) as one factor in their index. </li>
+<li><a href="http://www.cadh.org/health-equity/health-equity-index.html">Health Equity Index</a> includes both the poverty rate and children living in poverty as factors in the index. </li>
+<li><a href="http://pvpc.org/resources/datastats/state-of-people/stateofthepeople2013.pdf">Pioneer Valley State of the People</a> include the poverty rate in their &#39;Poverty&#39; domain. </li>
+<li><a href="http://www.sustainableknowledgecorridor.org/site/content/how-are-we-doing">Sustainable Knowledge Corridor Dashboard</a> includes both poverty as an indicator of access to opportunity and high concentrations of poverty and racial segregation as an indicator within the housing domain. </li>
+<li><a href="http://www.ct.gov/opm/cwp/view.asp?a=2998&amp;Q=490946">Population Results Working Group</a> cites &#39;Percent of population with income less than the 200% of Federal Poverty Level (Broken out by age group (youth, adults and seniors)&#39; as an indicator to track. </li>
+<li><a href="http://www.cahs.org/programs-opportunitieshartford.asp">Opportunities Hartford</a> does not directly include poverty rates, but does include measures such as &#39;% of income for families &lt; 200% poverty given to child care / food costs&#39; and &#39;# / % families at 100% FPL without 3 months emergency funds&#39; within a set of indicators and performance measures. </li>
+<li><a href="http://www.ctdatahaven.org/communityindex">Data Haven&#39;s Community Well-Being Index</a> includes both the poverty rate and &#39;% of children age 0-5 who are living in families with a moderate or higher income&#39; as components of their index. </li>
+<li><a href="http://www.ctvoices.org/">CT Voices for Children</a> plans to include both child poverty rates and families living under 200% of the poverty line as indicators within the coming months. </li>
+</ul>
+
+<h3>Other relevant efforts</h3>
+
+<ul>
+<li><a href="http://www.bostonindicators.org/">Boston Indicators Project</a> looks at several indicators of poverty, including poverty rates by race / ethnicity, educational attainment and neighborhood, and poverty by households and for children in families. </li>
+<li><a href="http://www.bostonfed.org/about/ar/ar2009/lessons-from-resurgent-cities.pdf">Resurgent Cities</a> is a report from the Federal Reserve Bank of Boston, which looks at population, poverty and other factors for older, industrial cities, including Hartford. </li>
+<li><a href="http://fcd-us.org/our-work/child-well-being-index-cwi">The Child Well-Being Index</a> includes poverty rate as one indicator of family economic well-being. </li>
+<li><a href="http://www.rifoundation.org/CommunityLeadership/CommunityDashboard/tabid/1157/Default.aspx">The Rhode Island Community Foundation</a> looks at both the poverty rate and the percent of families living under 185% of the federal poverty line within their basic demographics (&#39;Know Rhode Island&#39;).</li>
+<li><a href="http://www.futurefundneo.org/whatmatters">What Matters to Metros</a> includes the poverty rate and the percent of the population between 125 - 200% of the poverty line as factors in their model.</li>
+<li><a href="https://data.cityofchicago.org/Health-Human-Services/hardship-index/792q-4jtu">Chicago Deparment of Public Health</a> includes poverty as one of the factors in their &#39;Hardship index&#39; (originally developed via the Rockefeller Institute).</li>
+<li><a href="http://15th-www.declarationinitiative.org/poverty-in-america/6-deadly-poverty-trap-triggers">The Declaration Initiative</a> identifies six &#39;Poverty Trap Triggers&#39; that &#39;undermine basic quality of life.&#39;</li>
+</ul>
+
+<h2>Sample results</h2>
+
+<p>For the Hartford region, the following is some sample data for the main indicators. (Some of the following only show the 29 towns in the Foundation&#39;s catchment, but could be expanded easily.)</p>
+
+<p>We can look at poverty rates for individual towns in the region. (The Census Bureau calculations changed in 1970 so earlier data is excluded.)</p>
+
+<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+<p>The additional poverty measures are closely correlated with the poverty rate (the percent living under 100% of the federal poverty line), although the levels for each tell a different story. </p>
+
+<p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+<p>We can also convert poverty rates to look at the number of people living in poverty. </p>
+
+<p><img src="assets/fig/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+<p>Number of people in poverty by type of town</p>
+
+<p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
+
+<p>How does the City of Hartford compare to other similar cities? The resurgent cities report provides a benchmark set of cities for this indicator: </p>
+
+<p><img src="assets/fig/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5"> </p>
+
+<p>If we combine poverty with other factors, such as long-term population changes, we can identify cities in similar circumstances: </p>
+
+<p><img src="assets/fig/unnamed-chunk-6.png" alt="plot of chunk unnamed-chunk-6"> </p>
+
+<p>Poverty data is released with several demographic breakouts (age, race / ethnicity, nativitiy, etc.) although the smaller the subgroup the higher the margin of error for the estimates. </p>
+
+      </section>
+      <footer>
+        <p>Maintained by <a href="http://github.com/">
+          Scott Gaul
+        </a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by 
+          <a href="https://github.com/orderedlist">orderedlist</a></small>
+        </p>
+      </footer>    </div>
+    <script src="libraries/frameworks/minimal/javascripts/scale.fix.js"></script>
+  </body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
