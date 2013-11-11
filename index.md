@@ -98,3 +98,17 @@ If we combine poverty with other factors, such as long-term population changes, 
 
 Poverty data is released with several demographic breakouts (age, race / ethnicity, nativitiy, etc.) although the smaller the subgroup the higher the margin of error for the estimates. 
 
+Poverty data is also released by census tract, meaning that we can look at poverty rates within towns. The maps below display poverty rates for census tracts in Hartford and Tolland counties, for the most recent ACS data (2011 5-year estimates). 
+
+Testing geography item 1: Tract *, Hartford County, Connecticut .... OK.
+Testing geography item 2: Tract *, Tolland County, Connecticut .... OK.
+![plot of chunk unnamed-chunk-7](assets/fig/unnamed-chunk-7.png) 
+
+
+Here is another view of the same data, with a different way of coloring the same map. 
+
+![plot of chunk unnamed-chunk-8](assets/fig/unnamed-chunk-8.png) 
+
+
+Similar maps could be produced for the other poverty measures currently available or with demographic breakouts. Brookings and others have looked at 'concentrated poverty' measures and identified areas of concentrated or racially concentrated poverty (generally based on combined thresholds for poverty and racial segregation). 
+
