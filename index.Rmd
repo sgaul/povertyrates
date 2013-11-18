@@ -20,7 +20,7 @@ All three were among the most highly-ranked indicators in the survey.
 
 ## Data and limitations
 
-The measurement of poverty is complex and there are several approaches and much research [on this subject](http://www.census.gov/hhes/www/poverty/about/overview/measure.html). (For a user-friendly introduction, NPR's Planet Money had [some recent](http://www.npr.org/blogs/money/2013/08/27/214822459/a-college-kid-a-single-mom-and-the-problem-with-the-poverty-line) [programs](http://www.npr.org/blogs/money/2013/09/16/223086399/the-poverty-rate-ignores-programs-that-fight-poverty) on this.) 
+The measurement of poverty is complex and there are several approaches and much research [on this subject](http://www.census.gov/hhes/www/poverty/about/overview/measure.html). For a user-friendly introduction, NPR's Planet Money had [some recent](http://www.npr.org/blogs/money/2013/08/27/214822459/a-college-kid-a-single-mom-and-the-problem-with-the-poverty-line) [programs](http://www.npr.org/blogs/money/2013/09/16/223086399/the-poverty-rate-ignores-programs-that-fight-poverty) on this.
 
 In most cases, indicator systems rely on data from the U.S. Census Bureau, generally from either the decennial census, the annual American Community Survey updates or the Current Population Survey. 
 
