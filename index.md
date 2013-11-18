@@ -24,7 +24,7 @@ The measurement of poverty is complex and there are several approaches and much 
 
 In most cases, indicator systems rely on data from the U.S. Census Bureau, generally from either the decennial census, the annual American Community Survey updates or the Current Population Survey. 
 
-Use of census data creates some difficulties. Reliance on the decennial census means using poverty data that is produced only once each decade. More frequent updates rely on sample surveys though, which means there can be large margins of error for small geographies. In practice, for the Hartford region this generally means towns in the region need [at least three and often five-years of data to create reliable estimates](http://www.census.gov/acs/www/methodology/sample_size_and_data_quality/Community Survey). In other words, [2011 poverty data for (say) Vernon](http://ctdata.org/communityprofile-Vernon) reflects five-years of rolling surveys (2006 - 2010 or 2007 - 2011) of individuals in that town. 
+Use of census data creates some difficulties. Reliance on the decennial census means using poverty data that is produced only once each decade. More frequent updates rely on sample surveys though, which means there can be large margins of error for small geographies. In practice, for the Hartford region this generally means towns in the region need [at least three and often five-years of data to create reliable estimates](http://www.census.gov/acs/www/methodology/sample_size_and_data_quality/Community Survey). In other words, [2011 poverty data for Vernon](http://ctdata.org/communityprofile-Vernon) reflects five-years of rolling surveys (2006 - 2010 or 2007 - 2011) of individuals in that town. 
 
 Other demographic issues, like a [large off-campus student population](http://blogs.census.gov/2013/07/29/when-off-campus-college-students-are-excluded-poverty-rates-fall-in-many-college-towns/), can effect the results for some towns. Data on Mansfield is particularly affected by this in Connecticut, although the impact is not large for other towns. 
 
@@ -58,9 +58,6 @@ Below are references for some local, regional and national reports that use pove
 * [What Matters to Metros](http://www.futurefundneo.org/whatmatters) includes the poverty rate and the percent of the population between 125 - 200% of the poverty line as factors in their model.
 * [Chicago Deparment of Public Health](https://data.cityofchicago.org/Health-Human-Services/hardship-index/792q-4jtu) includes poverty as one of the factors in their 'Hardship index' (originally developed via the Rockefeller Institute).
 * [The Declaration Initiative](http://15th-www.declarationinitiative.org/poverty-in-america/6-deadly-poverty-trap-triggers) identifies six 'Poverty Trap Triggers' that 'undermine basic quality of life.'
-
-
-
 
 ## Sample results
 
@@ -100,8 +97,12 @@ Poverty data is released with several demographic breakouts (age, race / ethnici
 
 Poverty data is also released by census tract, meaning that we can look at poverty rates within towns. The maps below display poverty rates for census tracts in Hartford and Tolland counties, for the most recent ACS data (2011 5-year estimates). 
 
-Testing geography item 1: Tract *, Hartford County, Connecticut .... OK.
-Testing geography item 2: Tract *, Tolland County, Connecticut .... OK.
+
+```
+## Testing geography item 1: Tract *, Hartford County, Connecticut .... OK.
+## Testing geography item 2: Tract *, Tolland County, Connecticut .... OK.
+```
+
 ![plot of chunk unnamed-chunk-7](assets/fig/unnamed-chunk-7.png) 
 
 
